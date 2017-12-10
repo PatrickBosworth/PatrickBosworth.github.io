@@ -1,7 +1,4 @@
 // replace these values with those generated in your TokBox Account
-// var apiKey = "45942552";
-// var sessionId = "2_MX40NTk0MjU1Mn5-MTUwMzI0MjQ2NDkzNn5kSUUyZkxkQitrNk11VVdWZmhWMjNFYTh-fg";
-// var token = "T1==cGFydG5lcl9pZD00NTk0MjU1MiZzaWc9ZWFhYzZiMDEzMjRiZTAxYWQ5MzFjZDAzMDczYjI2ZmE5YmVhMTRhZTpzZXNzaW9uX2lkPTJfTVg0ME5UazBNalUxTW41LU1UVXdNekkwTWpRMk5Ea3pObjVrU1VVeVpreGtRaXRyTmsxMVZWZFdabWhXTWpORllUaC1mZyZjcmVhdGVfdGltZT0xNTAzMjQyNDgyJm5vbmNlPTAuMDIyOTkzMTU4MzE2MzcwNzImcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTUwMzI0NjA4NyZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ==";
 
 var apiKey = "45942552";
 var sessionId = "1_MX40NTk0MjU1Mn5-MTUxMjkyODUwMzY0Mn5PSUx1dnpZWFNOLzdIS3lrdzVmRko5cUh-fg"; 
@@ -17,6 +14,13 @@ function handleError(error) {
 
 // (optional) add server code here
 // initializeSession();
+
+function getSessionDetails()
+    {
+
+    };
+
+
 
 function initializeSession() {
   var session = OT.initSession(apiKey, sessionId);
