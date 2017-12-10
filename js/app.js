@@ -16,7 +16,7 @@ function handleError(error) {
 }
 
 // (optional) add server code here
-initializeSession();
+// initializeSession();
 
 function initializeSession() {
   var session = OT.initSession(apiKey, sessionId);
