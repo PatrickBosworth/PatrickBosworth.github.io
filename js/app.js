@@ -20,7 +20,9 @@ function getSessionDetails()
 
     };
 
+function showSessionDetails() {
 
+};
 
 function initializeSession() {
   var session = OT.initSession(apiKey, sessionId);

@@ -1,1 +1,43 @@
-testpage
+<html>
+<head>
+    <title> OpenTok Getting Started </title>
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <!--<script src="https://static.opentok.com/v2/js/opentok.min.js"></script>-->
+</head>
+<body>
+
+    <form>
+        Identifier (phone number)<br />
+        <input type="text" name= ="Identifier" />
+        <br />
+        <br />
+        <table id="credsTable" style="width:100%">
+            <tr>
+                <th>API session ID</th>
+                <th>session id</th>
+                <th>token id</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+    </form>
+    <button id="showsession">Get session details</button>
+
+    <br />
+    <br />
+    <!--<button onclick="initializeSession()">initialize session</button>-->
+
+    <div id="videos">
+        <div id="subscriber"></div>
+        <div id="publisher"></div>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
